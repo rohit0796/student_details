@@ -6,7 +6,7 @@ function Update(props) {
     const [data, setData] = useState([]);
     const getData = async() =>
     {
-             await fetch('/submit/update/'+props.ids,
+             await fetch('https://students-detail.onrender.com/submit/update/'+props.ids,
             {
                 method:"GET",
                 headers:
