@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Delete = (props) => {
 
   const deleteData = async (id) => {
-    const res = await fetch('/submit/delete',
+    const res = await fetch('https://students-detail.onrender.com/submit/delete',
       {
         method: 'POST',
         headers:
