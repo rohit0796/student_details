@@ -10,7 +10,7 @@ function Display({ setModal ,seId,setUpdatemod}) {
   // const k = 9;
   // f(9);
   const getUser = async () => {
-    await fetch('http://localhost:5000/submit',
+    await fetch('https://students-detail.onrender.com/submit',
       {
         method: "GET",
         headers: {
