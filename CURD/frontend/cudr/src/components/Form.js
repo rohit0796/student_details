@@ -38,7 +38,7 @@ function Form(props) {
         else if (cpassword !== password)
             alert("your password and confirm password inputs must be same")
         else {
-            const res = await fetch('/submit', {
+            const res = await fetch('https://students-detail.onrender.com/submit', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
