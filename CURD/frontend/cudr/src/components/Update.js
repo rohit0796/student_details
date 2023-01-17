@@ -38,7 +38,7 @@ function Update(props) {
             mob:e.target[4].value,
              branch:e.target[6].value, 
              hobbies:e.target[7].value, } 
-            const res = await fetch('/submit/updates'+props.ids, {
+            const res = await fetch('https://students-detail.onrender.com/submit/updates'+props.ids, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
